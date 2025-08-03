@@ -39,23 +39,23 @@ npm install
 PORT=5000
 
 # MySQL Database
-MYSQL_HOST=
-MYSQL_DB=
-MYSQL_USER=
-MYSQL_PASSWORD=
-MYSQL_PORT=
+MYSQL_HOST= 
+MYSQL_DB= 
+MYSQL_USER= 
+MYSQL_PASSWORD= 
+MYSQL_PORT= 
 
 # JWT
-JWT_SECRET=
-JWT_REFRESH_SECRET=
-EMAIL_TOKEN_SECRET=
+JWT_SECRET= 
+JWT_REFRESH_SECRET= 
+EMAIL_TOKEN_SECRET= 
 
 # Email (e.g., Mailtrap or SMTP)
-MAIL_SERVICE=gmail
-MAIL_PORT=465
-MAIL_USER=XYZ@gmail.com
-MAIL_PASS=your_mail_password
-MAIL_FROM=XYZ@gmail.com
+MAIL_SERVICE=gmail 
+MAIL_PORT=465 
+MAIL_USER=XYZ@gmail.com 
+MAIL_PASS=your_mail_password 
+MAIL_FROM=XYZ@gmail.com 
 
 # Frontend (for links in emails)
 FRONTEND_URL=http://localhost:5173
@@ -77,7 +77,7 @@ npx sequelize-cli db:migrate
 ```bash
 npm run dev
 ```
-### 6. 
+### 6. 🧰 API Endpoints
 | Method | Endpoint                   | Description                |
 | ------ | -------------------------- | -------------------------- |
 | POST   | /api/auth/register         | Register new user          |
