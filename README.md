@@ -35,6 +35,7 @@ cd user-management-backend
 npm install
 ```
 ### 3. Set Environment Variables
+```bash
 # Server
 PORT=5000
 
@@ -64,7 +65,7 @@ FRONTEND_URL=http://localhost:5173
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
-
+```
 
 ### 4. Migrate DB & Seed (Optional)
 
