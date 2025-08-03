@@ -14,7 +14,6 @@ This is the backend API for a full-featured **User Management System**, supporti
 - **MySQL** with **Sequelize ORM**
 - **JWT Auth** (access & refresh token flow)
 - **Multer** (image upload)
-- **Passport.js** with **Google OAuth2**
 - **Nodemailer** (for email verification)
 - **dotenv** for env configs
 
